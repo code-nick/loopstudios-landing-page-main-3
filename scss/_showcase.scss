@@ -1,0 +1,55 @@
+.Showcase{
+    background: no-repeat center/cover url('/src/assets/image/image-hero.jpg');
+    min-height: 100vh;
+
+}
+.overlap{
+    width: 75%;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.overlap h2{
+    text-transform: uppercase;
+    font-size: 4rem;
+    max-width:55%;
+    padding:40px  25px;
+    border: 2px solid white;
+    color: var(--White);
+}
+
+@media (max-width:838px) {
+    .overlap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+    .overlap h2{
+        max-width: 80% !important;
+        font-size: 4rem;
+        padding: 40px 20px;
+        color: var(--White);
+    }
+    @media (max-width:375px) {
+        .overlap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        }
+        .overlap h2{
+            max-width: 92% !important;
+            font-size: 2.5rem;
+            padding: 20px 15px;
+            color: var(--White);
+        }
+
+}
+}
+

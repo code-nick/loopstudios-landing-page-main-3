@@ -1,0 +1,42 @@
+.creation {
+    width: 85%;
+    margin-top: 5rem;
+    align-items: center;
+    margin: 0 auto;
+    &__box {
+        display: flex;
+        align-items: center;
+        margin-top: 7rem;
+        justify-content: space-between;
+
+        &__tittle {
+            font-size: 1.8rem;
+            font-family: "Alata", sans-serif;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        &__btn {
+            padding: 0.7rem 1.6rem;
+            border: 1px solid black;
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+            align-items: center;
+            color: var(--Black);
+            cursor: pointer;
+        }
+        &__btn:hover {
+            background: var(--Black);
+            color: var(--White);
+        }
+    }
+    &__image {
+        margin-top: 4rem;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+        justify-content: space-between;
+        position: relative;
+    }
+}
+
