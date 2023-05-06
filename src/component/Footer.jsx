@@ -32,7 +32,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='loopstudio'>
-                        <p>&copy;  2021 loopstudios,All rights reserved</p>
+                        <p>&copy; 2021 loopstudios,All rights reserved</p>
                     </div>
                 </div>
             </div>
