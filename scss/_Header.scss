@@ -1,5 +1,4 @@
 .header {
-    // width: 100%;
     display: flex;
     justify-content: space-between;
     nav {
@@ -22,7 +21,7 @@
     }
 }
 @media (max-width: 855px) {
-    ul {
+    nav ul {
         display: none;
     }
     .hambagar img {

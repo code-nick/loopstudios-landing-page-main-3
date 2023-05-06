@@ -1,5 +1,5 @@
 .Showcase{
-    background: no-repeat center/cover url('/src/assets/image/image-hero.jpg');
+    background: no-repeat center/cover url('../src/assets/image/desktop/image-hero.jpg');
     min-height: 100vh;
 
 }
@@ -14,11 +14,12 @@
 }
 .overlap h2{
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 3rem;
     max-width:55%;
-    padding:40px  25px;
+    padding:30px  25px;
     border: 2px solid white;
     color: var(--White);
+    font-weight: 400;
 }
 
 @media (max-width:838px) {

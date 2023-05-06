@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../assets/image/logo.svg'
-import ham from '../assets/image/icon-hamburger.svg'
+import logo from '../assets/image/desktop/logo.svg'
+import ham from '../assets/image/desktop/icon-hamburger.svg'
 
 const Header = () => {
   return (

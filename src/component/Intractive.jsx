@@ -1,10 +1,11 @@
 import React from 'react'
-import intract from "../assets/image/image-interactive.jpg"
+import intract from "../assets/image/desktop/image-interactive.jpg"
+
 
 const intractive = () => {
   return (
     <>
-      <section className='intractive d-f'>
+      <section className='intractive'>
         <div className='intractive__intractive-iamge'>
             <img src={intract} alt="" />
         </div>
